@@ -38,7 +38,7 @@ pipeline {
                script {
                    def num1=10
                    def num2=5
-                   def div=num1-num2
+                   def div=num1/num2
                    echo "div of ${num1} & ${num2} is:${div}"
                }
            }
